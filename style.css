@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.header1{
+    text-align: center;
+}
+#contframe {
+    position: relative;
+    width: 350px;
+    height: 430px;
+    float: right;
+  }
+
+  #contframe iframe {
+    position: absolute;
+    top:260px ;
+    right: 0;
+    width: 350px; 
+    height: 430px; 
+  }
+  
+.container.descp {
+    text-align: left;
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 10px;
+    float: left;
+   
+  }
+  .container.descp p{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .container.descp li{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .container.descp b{
+    font-weight:bold;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container.descp {
+      max-width: 100%;
+      float: none;
+    }
+  }
